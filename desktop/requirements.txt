@@ -1,0 +1,2 @@
+# 【修改】桌面运行依赖，安装到本目录的.venv（Python 3.10+）。
+PySide6-Essentials==6.10.1

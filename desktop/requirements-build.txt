@@ -1,0 +1,3 @@
+# 【修改】制作Windows交付目录或macOS应用时需要。
+-r requirements.txt
+PyInstaller==6.22.3

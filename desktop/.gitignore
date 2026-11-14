@@ -1,0 +1,8 @@
+# 【修改】本机环境、缓存和打包产物不作为源文件交付。
+.venv/
+__pycache__/
+build/
+dist/
+# 【修改】Mac交付包和构建缓存单独存放，不影响Windows产物。
+_mac_build/
+_mac_dist/

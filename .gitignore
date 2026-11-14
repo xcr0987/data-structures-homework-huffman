@@ -1,0 +1,60 @@
+# 【修改】只提交课程作业源码、样例和文档；编译及运行产物留在本机。
+
+# macOS / 编辑器
+.DS_Store
+._*
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# C 可执行文件、目标文件和动态库
+/huffman
+/huffman.exe
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+*.dSYM/
+
+# Python 虚拟环境和缓存（包括 Windows x64 专用环境）
+.venv*/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# PyInstaller 构建目录及交付包；保留 .spec 和构建脚本
+build/
+build-*/
+dist/
+dist-*/
+_mac_build/
+_mac_dist/
+*.app/
+*.zip
+*.dmg
+
+# C 程序生成的中间文件、密文、解码结果和比较报告
+/temp/
+/encode-output/
+/decode-input/
+/output/
+/table.txt
+/encoded.txt
+/encoded.bin
+/packed.bin
+/evil.deflate
+/decoded*.txt
+/compare*.txt
+/zlib_decoded.txt
+
+# 本机配置和凭据
+.env
+.env.*
